@@ -1,4 +1,6 @@
-﻿namespace Maui_Project_BMI_Calculator
+﻿using Maui_Project_BMI_Calculator.MVVM.Views;
+
+namespace Maui_Project_BMI_Calculator
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new BMIView();
         }
     }
 }
