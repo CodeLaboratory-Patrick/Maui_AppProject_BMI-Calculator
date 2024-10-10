@@ -67,7 +67,7 @@
                     x:Name="WeightPointer"
                     IsInteractive="True"
                     Position="Cross"
-                    Value="{Binding BMI.Height}">
+                    Value="{Binding BMI.Weight}">
                                 <gauge:LinearContentPointer.Content>
                                     <Grid HeightRequest="25" WidthRequest="50">
                                         <RoundRectangle CornerRadius="5" Fill="#ff0074E3" />
